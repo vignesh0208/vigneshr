@@ -1,0 +1,14 @@
+body {
+    font-family: "Flamenco" !important;
+}
+
+.header {
+    height: 80px;
+    padding: 16px 0px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.logo {
+    height: 50px;
+}
