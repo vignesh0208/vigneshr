@@ -12,3 +12,21 @@ body {
 .logo {
     height: 50px;
 }
+
+.connect-link {
+    display: inline-block;
+    color: #333;
+    font-size: 24px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding: 4px;
+}
+
+.connect-link:hover {
+    color: #007bff;
+}
+
+.about-me h2 {
+    text-align: justify;
+}
