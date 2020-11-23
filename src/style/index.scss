@@ -1,0 +1,83 @@
+body {
+    font-family: "Flamenco" !important;
+}
+
+.header {
+    height: 80px;
+    padding: 16px 0px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(228, 228, 228);
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    height: 50px;
+}
+
+.connect-link {
+    display: inline-block;
+    color: #333;
+    font-size: 24px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding: 4px;
+}
+
+.connect-link:hover {
+    color: #007bff;
+}
+
+.background-color {
+    background-color: #fafafa;
+}
+
+.view-height {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .resume-btn {
+        margin-top: 24px;
+        a {
+            font-size: 1.5rem;
+            background-color: #212529;
+            color: #fff;
+            padding: 16px;
+            border: 1px solid #212529;
+            border-radius: 10px;
+            &:hover {
+                background-color: transparent;
+                color: #212529;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.about-me {
+    h2 {
+        text-align: justify;
+        margin-top: 8px;
+    }
+}
+
+.what-i-do {
+    h2 {
+        margin-bottom: 40px;
+    }
+    .service-icon {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        img {
+            margin: auto 0;
+            height: 48px;
+        }
+    }
+    .service-info {
+        margin-top: 24px;        
+    }
+}

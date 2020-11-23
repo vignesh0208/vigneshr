@@ -12,6 +12,7 @@ module.exports = {
                 trackingId: "UA-178786829-1",
             },
         },
+        `gatsby-plugin-sass`
     ],
     siteMetadata: {
         title: "Vignesh Rajendran | Front End Developer",

@@ -3,24 +3,29 @@ import Header from "../components/header"
 import Container from "../components/container"
 import Footer from "../components/footer"
 
+import myResume from "../resume/VigneshRajendran.pdf"
+
 import Icon1 from "../images/web-design.svg";
 import Icon2 from "../images/clean-code.svg";
 import Icon3 from "../images/wordpress.svg";
 
-import '../style/dark-mode.css'
+import '../style/index.scss'
 
 
 export default function Home() {
     return ( 
-        <div>
+        <div className="position-relative">
             <Header />
-            <Container bgColor="background-color">
+            <Container className="background-color">
                 <div className="about-me view-height">
                     <h1>Vignesh Rajendran</h1>
                     <h2>I'm a front-end engineer with 3+ long stretches of experience creating site and user interfase. Resourceful Front End Web Developer bringing in-depth knowledge of the latest technology trends to produce clean website design. Experience handling complex HTML and CSS coding, design, and extensions to meet the organisation front-facing internet needs.</h2>
+                    <div className="resume-btn">
+                        <a href={ myResume } download>Download Resume</a>
+                    </div>
                 </div>
             </Container>
-            <Container>
+            <Container className="what-i-do">
                 <div className="what-do view-height">
                     <h2>WHAT I DO</h2>
                     <div className="row">
