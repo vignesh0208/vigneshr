@@ -27,6 +27,18 @@ body {
     color: #007bff;
 }
 
+.background-color {
+    background-color: #fafafa;
+}
+
+.view-height {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .about-me h2 {
     text-align: justify;
+    margin-top: 8px;
 }

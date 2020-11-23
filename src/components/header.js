@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <header className="header">
             <SEO />
-            <Container>
+            <Container className="container">
                 <div className="d-flex justify-content-between">
                     <Link to="/"><img src={Logo} alt="vigneshr" className="logo" /></Link>
                 </div>
